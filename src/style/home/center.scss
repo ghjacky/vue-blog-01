@@ -1,0 +1,43 @@
+@import "src/style/variable";
+
+#app {
+  #content {
+    width: $headerNavBarWidth;
+    margin: $contentMarginTop auto;
+    #content_center {
+      width: calc(100% - #{$contentRightItemWidth} - #{$contentLeftItemWidth} - #{$contentLeftMarginRight} - #{$contentRightMarginLeft});
+      display: inline-block;
+      margin: 0 auto;
+      float: right;
+      .content_center_item {
+        background-color: $contentCenterItemBgColor;
+        margin: 0 10px 30px;
+        padding-bottom: 20px;
+        box-shadow: -1px -1px 5px #d5d5d5, 1px 1px 5px #d5d5d5;
+        .content_center_item_content {
+          margin-top: 20px;
+          margin-left: 20px;
+          .content_center_item_stuff {
+            font-size: $homeItemTileStuffFontSize;
+            color: $homeItemTileStuffFontColor;
+            margin-bottom: 15px;
+          }
+          .content_center_item_title {
+            margin-bottom: 20px;
+            font-size: 22px;
+            font-weight: 500;
+            color: #393939;
+          }
+          .content_center_item_summary {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #606060;
+          }
+          .el-button {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

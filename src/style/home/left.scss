@@ -1,0 +1,98 @@
+@import "~@/style/variable.scss";
+
+#app {
+  #content_left {
+    display: inline-block;
+    width: $contentLeftItemWidth;
+    margin-right: $contentLeftMarginRight;
+    .content_left_item {
+      background-color: $contentLeftItemBgColor;
+      height: auto;
+      margin: 0 0 10px 0;
+      box-shadow: 2px 0 5px #d5d5d5, -2px 0 5px #d5d5d5;
+      padding: 15px;
+    }
+    #content_left_profile {
+      text-align: center;
+      p {
+        margin: 3px auto;
+        color: $homeItemTileStuffFontColor;
+      }
+      #profile_name {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      #profile_creed {
+        font-size: 14px;
+        font-weight: normal;
+      }
+      #profile_address {
+        display: inline-block;
+        font-size: 14px;
+        margin-left: 5px;
+      }
+      #profile_count_items {
+        margin: 20px auto;
+        .profile_count {
+          display: inline-block;
+          margin: 0 25px;
+          .profile_count_label {
+            font-size: $homeItemTileStuffFontSize;
+          }
+          .profile_count_value {
+            font-size: 24px;
+            color: black;
+          }
+        }
+      }
+      #profile_feedback {
+        margin: 20px auto;
+        .profile_font_awesome_icon {
+          margin: 0 10px;
+        }
+      }
+    }
+
+    #content_left_categories {
+      #categories_title {
+        font-size: $homeItemTileStuffFontSize;
+        color: $homeItemTileStuffFontColor;
+      }
+      .categories_item {
+        font-size: 14px;
+        display: block;
+        margin: 2px auto;
+        color: #535353;
+        width: 90%;
+        .categories_item_name {
+          display: inline-block;
+        }
+        .categories_item_total {
+          display: inline-block;
+          float: right;
+        }
+      }
+    }
+
+    #content_left_links {
+      #links_title {
+        font-size: $homeItemTileStuffFontSize;
+        color: $homeItemTileStuffFontColor;
+      }
+      .links_item {
+        font-size: 14px;
+        display: block;
+        margin: 2px auto;
+        color: #535353;
+        width: 90%;
+        .links_item_name {
+          display: inline-block;
+        }
+        .links_item_total {
+          display: inline-block;
+          float: right;
+        }
+      }
+    }
+  }
+}

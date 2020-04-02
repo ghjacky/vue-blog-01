@@ -1,0 +1,38 @@
+$headerWidth: 100%;
+$headerHeight: 50px;
+$headerBgColor: #fbfdff;
+$headerNavBarWidth: 70%;
+
+$homeItemTileStuffFontSize: 12px;
+$homeItemTileStuffFontColor: #7a7a7a;
+
+$contentMarginTop: 30px;
+
+$contentLeftItemWidth: 20%;
+$contentLeftItemBgColor: #f7f7f7;
+$contentLeftMarginRight: 10px;
+
+$contentCenterItemWidth: 50%;
+$contentCenterItemBgColor: #f7f7f7;
+
+$contentRightItemWidth: 20%;
+$contentRightItemBgColor: #f7f7f7;
+$contentRightMarginLeft: 10px;
+
+:export {
+  headerWidth: $headerWidth;
+  headerHeight:  $headerHeight;
+  headerBgColor: $headerBgColor;
+  headerNavBarWidth: $headerNavBarWidth;
+  contentLeftItemWidth: $contentLeftItemWidth;
+  contentMarginTop: $contentMarginTop;
+  contentLeftItemBgColor: $contentLeftItemBgColor;
+  contentCenterItemWidth: $contentCenterItemWidth;
+  contentCenterItemBgColor: $contentCenterItemBgColor;
+  contentRightItemWidth: $contentRightItemWidth;
+  contentRightItemBgColor: $contentRightItemBgColor;
+  contentLeftMarginRight: $contentLeftMarginRight;
+  contentRightMarginLeft: $contentRightMarginLeft;
+  homeItemTileStuffFontSize: $homeItemTileStuffFontSize;
+  homeItemTileStuffFontColor: $homeItemTileStuffFontColor;
+}

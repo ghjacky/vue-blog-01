@@ -1,0 +1,17 @@
+@import "variable";
+#app {
+  #header {
+    width: $headerWidth;
+    height: auto;
+    background-color: $headerBgColor;
+    box-shadow: 0 1px 10px #d5d5d5;
+    #nav_bar {
+      margin: 0 auto;
+      width: $headerNavBarWidth;
+      .nav_bar_el {
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+  }
+}
